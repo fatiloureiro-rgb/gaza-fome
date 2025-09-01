@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaza em ruínas, a infância calada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gaza em ruínas, a infância calada</h1>
+    </header>
+
+    <main>
+        <section class="imagem">
+            <img src="imagens/bota.pomba.paz.png" alt="Desenho simbólico de Gaza com bota e pomba da paz">
+        </section>
+
+        <section class="texto">
+            <p>
+                Gaza está transformada num genocídio perpetrado por Israel.  
+                Este espaço é um testemunho simbólico da destruição e do silenciamento da infância.
+            </p>
+        </section>
+
+        <section class="imagem">
+            <img src="imagens/gaza.fome.png" alt="Desenho simbólico da fome em Gaza">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 – Maria de Fátima Oliveira da Costa Loureiro</p>
+    </footer>
+</body>
+</html>
