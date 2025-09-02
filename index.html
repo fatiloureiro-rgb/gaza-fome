@@ -43,3 +43,121 @@
         <em>“O peso da guerra rasga a terra. Só a pomba ousa lembrar que a verdadeira força é a Paz.”</em>
       </figcaption>
       <p class="autor">Obra da artista: <strong>Fátima Loureiro</strong></p>
+
+      <!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaza - Fome e Paz</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Primeira imagem -->
+  <div class="secao">
+    <img src="gaza.fome.jpg" alt="Gaza - Fome">
+    <p><strong>Gaza em ruínas, a infância calada.</strong><br>
+    Desenho de observação sobre o drama humano em Gaza.</p>
+  </div>
+
+  <!-- Segunda imagem -->
+  <div class="secao">
+    <img src="bota.pomba.paz.jpg" alt="Paz - Pomba e Bota">
+    <p><strong>A paz é o caminho.</strong><br>
+    Uma reflexão visual sobre a violência e a esperança.</p>
+  </div>
+
+  <!-- Formulário de Comentários -->
+  <div class="formulario">
+    <h2>Deixe o seu comentário</h2>
+    <form action="https://formspree.io/f/SEU_ENDPOINT" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" name="comentario" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>
+🎨 estilos.css
+css
+Copiar código
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.secao {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.secao img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.secao p {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.formulario {
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #3A9441;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2d6e31;
+}
