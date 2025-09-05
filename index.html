@@ -2,51 +2,67 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaza - Fome e Paz</title>
+  <title>Gaza – Fome</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-  <!-- Primeira imagem -->
-  <div class="secao">
-    <img src="gaza-fome.jpg" alt="Gaza - Fome">
-    <p><strong>Gaza em ruínas, a infância calada.</strong><br>
-    Desenho de observação sobre o drama humano em Gaza.</p>
-    <p>O desenho retrata uma mãe que segura nos braços o filho esquelético, frágil e moribundo, uma imagem que traduz de forma direta o sofrimento humano provocado pela guerra em Gaza. A expressão da mãe, de olhos fechados e semblante dorido, revela desespero e impotência, mas também ternura e amor incondicional. O abraço assume-se como último gesto de proteção, um refúgio num cenário de destruição.
-O corpo da criança, marcado pela fome e doença, mostra a consequência mais brutal da guerra: a perda da infância, da saúde e da vida. Ao colocar a palavra GAZA FOME em destaque, o desenho reforça a sua função de denúncia, transformando a imagem numa voz contra a violência e a indiferença.
- </p>
-  </div>
+  <header style="text-align:center; margin:20px;">
+    <h1>Gaza em ruínas, a infância calada.</h1>
+    <h3>Desenho de observação sobre o drama humano em Gaza.</h3>
+  </header>
 
-  <!-- Segunda imagem -->
-  <div class="secao">
-    <img src="bota.pomba.paz.jpg" alt="Paz - Pomba e Bota">
-    <p><strong> No silêncio da folha, uma bota ergue-se pesada, símbolo de poder e domínio, esmagando o chão onde duas bandeiras se cruzam — a Rússia e a Ucrânia, rasgadas pela violência, pelo confronto, pelo peso da guerra. As cores que deviam ser identidade e orgulho tornam-se fragmentos partidos, estilhaços de um território dilacerado.
-Mas, na delicadeza de um traço leve, uma pomba surge. Ela não carrega armas, não impõe medo. Traz apenas um ramo de oliveira, frágil, mas eterno, como um sussurro que insiste em lembrar que a humanidade só se reencontra no diálogo, no respeito e na empatia.
-O desenho denuncia e, ao mesmo tempo, sonha. Mostra-nos que a força bruta pode dominar, mas nunca será maior do que a coragem de acreditar num amanhã sem muros nem trincheiras.
-Que a imagem da pomba ressoe mais alto do que o peso da bota. Que o chão rachado se transforme em ponte. Que as bandeiras deixem de se rasgar para se entrelaçarem no gesto maior da Paz.
-Porque a verdadeira vitória não nasce do esmagar, mas do compreender. Não nasce da guerra, mas do encontro.
-E assim, entre o grafite e a cor, levanta-se uma mensagem urgente: a humanidade só floresce quando escolhe a Paz. “O peso da guerra rasga a terra. Só a pomba ousa lembrar que a verdadeira força é a Paz.” (Fátima Loureiro)
-</strong><br>
-    Uma reflexão visual sobre a violência e a esperança.</p>
-  </div>
+  <main style="max-width:900px; margin:auto; line-height:1.6; text-align:justify;">
 
-  <!-- Formulário de Comentários -->
-  <div class="formulario">
-    <h2>Deixe o seu comentário</h2>
-    <form action="https://formspree.io/f/SEU_ENDPOINT" method="POST">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required>
+    <p>
+      O desenho retrata uma mãe que segura nos braços o filho esquelético, frágil e moribundo, uma imagem que traduz de forma direta o sofrimento humano provocado pela guerra em Gaza.
+      A expressão da mãe, de olhos fechados e semblante dorido, revela desespero e impotência, mas também ternura e amor incondicional. 
+      O abraço assume-se como último gesto de proteção, um refúgio num cenário de destruição.
+      O corpo da criança, marcado pela fome e doença, mostra a consequência mais brutal da guerra: a perda da infância, da saúde e da vida.
+      Ao colocar a palavra <strong>GAZA FOME</strong> em destaque, o desenho reforça a sua função de denúncia, transformando a imagem numa voz contra a violência e a indiferença.
+    </p>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="_replyto" required>
+    <!-- Imagem principal -->
+    <div style="text-align:center; margin:30px 0;">
+      <img src="gaza.fome.jpg" alt="Desenho Gaza Fome" style="max-width:100%; border:2px solid #ccc;">
+    </div>
 
-      <label for="comentario">Comentário:</label>
-      <textarea id="comentario" name="comentario" rows="5" required></textarea>
+    <!-- Segunda imagem -->
+    <div style="text-align:center; margin:30px 0;">
+      <img src="bota.pomba.paz.jpg" alt="Bota e Pomba da Paz" style="max-width:100%; border:2px solid #ccc;">
+    </div>
 
-      <button type="submit">Enviar</button>
-    </form>
-  </div>
+    <!-- Formulário de Comentários -->
+    <section style="margin:40px 0;">
+      <h2>Deixe o seu comentário</h2>
+      <form action="https://formspree.io/f/{COLOCA_AQUI_O_TEUID}" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="comentario">Comentário:</label><br>
+        <textarea id="comentario" name="comentario" rows="5" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Rodapé com contactos -->
+  <footer style="background:#f0f0f0; padding:20px; margin-top:30px; text-align:center; border-top:1px solid #ccc;">
+    <h2>Contactos</h2>
+    <p><strong>Email:</strong> <a href="mailto:fati.loureiro@gmail.com">fati.loureiro@gmail.com</a></p>
+    <p><strong>Blogue:</strong> <a href="https://trilhandooscaminhosdaarte.blogspot.com/" target="_blank">Trilhando os Caminhos da Arte</a></p>
+    <p><strong>Portefólio Wordpress:</strong> <a href="https://desenhoeexpressaocriativa.wordpress.com/" target="_blank">Desenho e Expressão Criativa</a></p>
+  </footer>
 
 </body>
 </html>
+
+
+
+
+
